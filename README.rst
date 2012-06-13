@@ -43,8 +43,9 @@ Example::
     In [2]: print(msg.msg)
     VOIP-SIP-UDP From header unquoted tokens in field attempt
 
+
 Or if you want to send alerts as json to remote http server there's `HttpSendHandler` class,
- you'll nedd `requests <https://github.com/kennethreitz/requests/>`_ for this::
+you'll nedd `requests <https://github.com/kennethreitz/requests/>`_ for this::
 
    $ sudo python -m pigear --debug --data-handler pigear.contrib.HttpSendHandler url=http://httpbin.org/post
 
