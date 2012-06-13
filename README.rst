@@ -52,12 +52,20 @@ Or if you want to send alerts as json to remote http server there's `HttpSendHan
 Installation
 ************
 
+Clone this repo and run::
+
     $ python setup.py install
+
+Or use pip::
+
+    $ pip install -e git://github.com/beezz/pigear.git#egg=pigear
 
 
 *****
 Usage
 *****
+
+Module script usage::
 
     $ python -m pigear --help
     usage: __main__.py [-h] [--logdir LOGDIR] [--data-handler DATA_HANDLER]
