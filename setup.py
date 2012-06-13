@@ -11,16 +11,10 @@ setup(
     description='Snort NIDS unix socket reader',
     author='Michal Kuffa',
     author_email='michal.kuffa@gmail.com',
-#   url='https://github.com/kennethreitz/clint',
-#   data_files=[
-#       'README.rst',
-#       'HISTORY.rst',
-#   ],
     packages= [
         'pigear',
         'pigear.contrib',
     ],
-#   install_requires=required,
     license='ISC',
     classifiers=(
         'Development Status :: 2 - Pre-Alpha',
